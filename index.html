@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!--  meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--css links-->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+
+    <title>Components</title>
+  </head>
+  <body>
+    <h2 class="text-center">Alert Part</h2>
+<!-- alet start -->
+    <div class="container">
+      <div class="alert alert-custom text-center" role="alert">
+        <p>Important Notice!!</p>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="alert alert-success text-center" role="alert">
+        <p>Well Done Guys. <a href="#" class="alert-link">Student's Result</a> Click that link to show your academic result</p>
+      </div>
+    </div>
+
+    <div class="container">
+    <div class="alert alert-warning text-center alert-dismissible fade show" role="alert">
+      <strong>Hello!</strong> Check for new updates
+      <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+<!-- alert end -->
+    <h2 class="text-center">Accordion Part</h2>
+<!-- Accordion Part start-->
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="accordion" id="aex1">
+  <div class="accordion-item">
+     <h2 class="accordion-header" id="h-1">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#colOne" aria-expanded="true" aria-controls="colOne">
+        What is HTML ?
+      </button>
+
+     </h2>
+    <div id="colOne" class="accordion-collapse collapse show" aria-labelledby="h-1" data-bs-parent="#aex1">
+      <div class="accordion-body">
+       <p>The HyperText Markup Language, or HTML is the standard markup language for documents designed to be displayed in a web browser.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="accordion-item">
+     <h2 class="accordion-header" id="h-2">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#colTwo" aria-expanded="false" aria-controls="colTwo">
+        What is CSS ?
+      </button>
+     </h2>
+    <div id="colTwo" class="accordion-collapse collapse" aria-labelledby="h-2" data-bs-parent="#aex1">
+      <div class="accordion-body">
+      <p>Cascading Style Sheets, fondly referred to as CSS, is a simple design language intended to simplify the process of making web pages presentable.</p>
+          </div>
+        </div>
+      </div>
+
+  <div class="accordion-item">
+     <h2 class="accordion-header" id="h-3">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#colThree" aria-expanded="false" aria-controls="colThree">
+        What is Bootstrap ?
+      </button>
+     </h2>
+    <div id="colThree" class="accordion-collapse collapse" aria-labelledby="h-3" data-bs-parent="#aex1">
+      <div class="accordion-body">
+        <p>Bootstrap is a free and open-source CSS framework directed at responsive, mobile-first front-end web development. It contains CSS- and (optionally) JavaScript-based design templates for typography, forms, buttons, navigation, and other interface components.</p>
+           </div>
+          </div>
+        </div>
+
+    <div class="accordion-item mb-3">
+     <h2 class="accordion-header" id="h-4">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#colFour" aria-expanded="false" aria-controls="colFour">
+        What is web-develpoment ?
+      </button>
+     </h2>
+    <div id="colFour" class="accordion-collapse collapse" aria-labelledby="h-4" data-bs-parent="#aex1">
+      <div class="accordion-body">
+        <p>Web development is the work involved in developing a Web site for the Internet (World Wide Web) or an intranet (a private network). ... Among Web professionals, "Web development" usually refers to the main non-design aspects of building Web sites: writing markup and coding.</p>
+             </div>
+            </div>
+           </div>
+          </div>
+         </div>
+       </div>
+     </div>
+<!-- Accordion Part end-->
+<!-- badge start -->
+  <div class="container text-center">
+   <button type="button" class="btn btn-primary position-relative">
+      Profile
+      <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill p-2 bg-custom border border-light rounded-circle">2+
+        <span class="visually-hidden">New alerts</span>
+     </span>
+   </button>
+  </div>
+<!-- badge end -->
+<!-- breadcrumb strat -->
+  <div class="container">
+   <nav aria-label="breadcrumb">
+     <ol class="breadcrumb">
+      <li class="breadcrumb-item active" aria-current="page">Home</li>
+     </ol>
+   </nav>
+  </div>
+<!-- breadcrumb end -->
+<!-- button start -->
+<h2 class="text-center">Button Part</h2>
+
+   <div class="container text-center">
+     <input type="checkbox" class="btn-check" id="btncheck1" autocomplete="off">
+      <button type="button" class="btn btn-outline-info" role="group">Info</button>
+      <button type="button" class="btn btn-outline btn-lg btn-custom">Custom</button>
+      <button type="button" class="btn btn-outline-info">Info</button>
+    </div>
+<!-- button end -->
+
+<!-- cards start -->
+<h2 class="text-center p-2">Card Part</h2>
+
+   <div class="container">
+     <div class="card-group card-group-custom">
+  <div class="card">
+    <img src="images/img-1.jpg" class="card-img-top" alt="#">
+    <div class="card-body">
+      <h5 class="card-title">Ladies Shoe 1</h5>
+      <p class="card-text">If you are searching captions for your shoes then this article is for you.</p>
+      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="images/img-2.jpg" class="card-img-top" alt="#">
+    <div class="card-body">
+      <h5 class="card-title">Ladies Shoe 2</h5>
+      <p class="card-text">If you are searching captions for your shoes then this article is for you.</p>
+      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="images/img-3.jpg" class="card-img-top" alt="#">
+    <div class="card-body">
+      <h5 class="card-title">Ladies Shoe 3</h5>
+      <p class="card-text">If you are searching captions for your shoes then this article is for you.</p>
+      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+    </div>
+  </div>
+</div>
+<div class="container text-center p-2">
+ <button type="button" class="btn btn-outline btn-lg btn-custom"><a class="btn-a"href="ledies-shoe.html">Show More</a></button>
+ </div>
+   </div>
+
+
+<!--cards end -->
+
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     <!-- Option 2:js links --> 
+    
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+   
+  </body>
+</html>

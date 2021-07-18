@@ -1,0 +1,26 @@
+.alert-custom{
+	background-color: #fc2828;
+    color: white;
+}
+.bg-custom{
+	background-color: hotpink;
+}
+.btn-custom{
+	background-color: #2d2d51;
+    color: white;
+}
+.btn-custom:hover{
+	background-color: transparent;
+	color: #2d2d51;
+	border-color: #2d2d51;
+}
+.card-group-custom{
+	margin-left:2px;
+	-webkit-box-shadow: 4px 4px 11px -3px rgba(105,90,105,1);
+-moz-box-shadow: 4px 4px 11px -3px rgba(105,90,105,1);
+box-shadow: 4px 4px 11px -3px rgba(105,90,105,1);
+}
+.btn-a{
+	text-decoration: none;
+	color: white;
+}
