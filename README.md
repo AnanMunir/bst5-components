@@ -1,2 +1,2 @@
 # bst5-components
-Basic bootstrap components
+https://ananmunir.github.io/bst5-components/index.html
